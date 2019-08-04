@@ -35,8 +35,26 @@ body {
   align-content: center;
   // border: 1px dashed;
 }
+#Banner {
+  position: absolute;
+  @extend %size-full;
+  z-index: -1;
+  background-image: url(../assets/banner.jpg);
+  background-size: cover;
+  animation: fadein 12s ease-in;
+  // border: 1px dashed;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 #Off {
   width: 100%;
+  cursor: alias;
   @extend %no-img-hi;
   // pointer-events: none;
   // border: 1px dashed;

@@ -1,9 +1,14 @@
-import styles from './Casa.scss'
-import Off from './Offline.svg'
+import styles from './styles/Casa.scss'
+import banner from './assets/banner.jpg'
+import Off from './assets/Offline.svg'
 
 let casaEl = document.createElement('div')
 casaEl.id = styles.Casa
 document.body.appendChild(casaEl)
+
+let banEl = document.createElement('div')
+banEl.id = styles.Banner
+casaEl.appendChild(banEl)
 
 let offEl = document.createElement('img')
 offEl.id = styles.Off

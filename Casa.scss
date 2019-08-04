@@ -38,6 +38,6 @@ body {
 #Off {
   width: 100%;
   @extend %no-img-hi;
-  pointer-events: none;
+  // pointer-events: none;
   // border: 1px dashed;
 }

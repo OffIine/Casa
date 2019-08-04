@@ -1,0 +1,16 @@
+{
+  "name": "Offline",
+  "short_name": "Off",
+  "icons": [
+    {
+      "src": "./Off.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./Off.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
